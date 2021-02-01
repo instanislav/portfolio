@@ -2,20 +2,79 @@ body {
   padding: 0 30px;
   font-size: 16px;
   line-height: 26px;
-  font-family: "Arial", sans-serif;
+  font-family: "TT Commons", sans-serif;
   color: #222222;
 
 /* background: #ffffff url("img/bg-page.png") no-repeat top center; */
 }
 
+.testfont {
+  font-family: "GT Walsheim Pro";
+  font-weight: 600;
+  font-size: 40px;
+  width: 400px;
+  line-height: 130%;
+  padding-top: 120px;
+  -webkit-font-smoothing: antialiased;
+}
+
+.testfont2{
+  font-family: "TT Commons";
+  font-weight: 500;
+  font-size: 22px;
+  width: 440px;
+  line-height: 130%;
+  color: #444444;
+  padding-top: 16px;
+  -webkit-font-smoothing: antialiased;
+}
+
+.redbutton{
+  font-family: "TT Commons";
+  font-weight: 500;
+  font-size: 19px;
+  width: 410px;
+  height: 42px;
+  line-height: 130%;
+  color: #ffffff;
+  background-color: #E4443A;
+  text-align: center;
+  vertical-align: center;
+  border-radius: 6px;
+  padding-top: 22px;
+  margin-top:32px;
+  -webkit-font-smoothing: antialiased;
+  cursor: pointer;
+  margin-bottom: 120px;
+}
+
+.redbutton:hover{
+  background-color: #E4443A;
+  transition: all 0.4s ease-out;
+  box-shadow: 0px 0px 20px 0px rgba(234, 85, 76, 0.2);
+}
+
+.redbutton:active{
+  background-color: #EA554C;
+  transition: all 0.2s ease-out;
+  box-shadow: 0px 0px 20px 0px rgba(234, 85, 76, 0.2);
+}
+
 h1 {
   font-size: 24px;
+  font-family: "GT Walsheim Pro";
   line-height: normal;
+  font-weight: 500;
 }
 
 h2 {
   font-size: 20px;
   line-height: normal;
+  font-weight: 500;
+}
+
+h3 {
+  font-weight: 500;
 }
 
 pre,
@@ -24,7 +83,7 @@ code {
   border: 1px solid #c6c4f4;
   border-radius: 4px;
   color: #3632ad;
-  font-family: "Courier New", "Courier", monospace;
+  font-family: "GT Walsheim Pro", "Courier", monospace;
 }
 
 pre {
@@ -190,10 +249,10 @@ footer {
 }
 
 .page-title {
-  font-weight: bold;
+  font-weight: 500;
   font-size: 36px;
   line-height: 42px;
-  font-family: "Verdana", sans-serif;
+  font-family: "GT Walsheim Pro", sans-serif;
   text-align: center;
 }
 
